@@ -1,5 +1,5 @@
 # Flow_Java9
-Java9 bổ sung thêm Flow cho việc pub-sub dữ liệu.
+Java9 bổ sung thêm Flow cho việc pub-sub dữ liệu cho lập trình reactive.
 
 <img src='https://github.com/LongHuu100/Flow_Java9/blob/main/java-9-flow-pubisher-subscriber-example.png' />
 
