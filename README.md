@@ -10,30 +10,30 @@ Nếu giao tiếp 2 chiều tức là bên nhận có thể gửi trả lại đ
 
 Kết quả quả Example.java 
 
-Subscriber A >> [main] Subscribed
-Subscriber A >> [main] Requesting 3 new items...
-Subscriber B >> [main] Subscribed
-Subscriber B >> [main] Requesting 3 new items...
-Publisher >> [pool-1-thread-2] publish item: [2] ...
-Subscriber A >> [pool-1-thread-2] 2
-Publisher >> [pool-1-thread-1] publish item: [1] ...
-Subscriber A >> [pool-1-thread-1] 1
-Publisher >> [pool-1-thread-1] publish item: [1] ...
-Subscriber B >> [pool-1-thread-1] 1
-Publisher >> [pool-1-thread-2] publish item: [2] ...
-Subscriber B >> [pool-1-thread-2] 2
-Publisher >> [pool-1-thread-3] publish item: [3] ...
-Subscriber A >> [pool-1-thread-3] 3
-Subscriber A >> [pool-1-thread-3] Cancelling subscription...
-Publisher >> [pool-1-thread-4] publish item: [3] ...
-Subscriber B >> [pool-1-thread-4] 3
-Subscriber B >> [pool-1-thread-4] Requesting 3 new items...
-Publisher >> [pool-1-thread-1] publish item: [4] ...
-Subscriber B >> [pool-1-thread-1] 4
-Publisher >> [pool-1-thread-2] publish item: [5] ...
-Subscriber B >> [pool-1-thread-2] 5
-Publisher >> [pool-1-thread-3] publish item: [6] ...
-Subscriber B >> [pool-1-thread-3] 6
-Subscriber B >> [pool-1-thread-1] Cancelling subscription...
-Publisher >> [pool-1-thread-1] Shut down executor...
-Publisher >> [pool-2-thread-1] Shutdown complete.
+Subscriber A >> [main] Subscribed \
+Subscriber A >> [main] Requesting 3 new items... \
+Subscriber B >> [main] Subscribed \
+Subscriber B >> [main] Requesting 3 new items... \
+Publisher >> [pool-1-thread-2] publish item: [2] ... \
+Subscriber A >> [pool-1-thread-2] 2 \
+Publisher >> [pool-1-thread-1] publish item: [1] ... \
+Subscriber A >> [pool-1-thread-1] 1 \
+Publisher >> [pool-1-thread-1] publish item: [1] ... \
+Subscriber B >> [pool-1-thread-1] 1 \
+Publisher >> [pool-1-thread-2] publish item: [2] ... \
+Subscriber B >> [pool-1-thread-2] 2 \
+Publisher >> [pool-1-thread-3] publish item: [3] ... \
+Subscriber A >> [pool-1-thread-3] 3 \
+Subscriber A >> [pool-1-thread-3] Cancelling subscription... \
+Publisher >> [pool-1-thread-4] publish item: [3] ... \
+Subscriber B >> [pool-1-thread-4] 3 \
+Subscriber B >> [pool-1-thread-4] Requesting 3 new items... \
+Publisher >> [pool-1-thread-1] publish item: [4] ... \
+Subscriber B >> [pool-1-thread-1] 4 \
+Publisher >> [pool-1-thread-2] publish item: [5] ... \
+Subscriber B >> [pool-1-thread-2] 5 \
+Publisher >> [pool-1-thread-3] publish item: [6] ... \
+Subscriber B >> [pool-1-thread-3] 6 \
+Subscriber B >> [pool-1-thread-1] Cancelling subscription... \
+Publisher >> [pool-1-thread-1] Shut down executor... \
+Publisher >> [pool-2-thread-1] Shutdown complete. \
