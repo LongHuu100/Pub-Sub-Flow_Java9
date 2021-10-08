@@ -36,4 +36,4 @@ Publisher >> [pool-1-thread-3] publish item: [6] ... \
 Subscriber B >> [pool-1-thread-3] 6 \
 Subscriber B >> [pool-1-thread-1] Cancelling subscription... \
 Publisher >> [pool-1-thread-1] Shut down executor... \
-Publisher >> [pool-2-thread-1] Shutdown complete. \
+Publisher >> [pool-2-thread-1] Shutdown complete.
