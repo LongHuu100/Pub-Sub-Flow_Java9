@@ -8,7 +8,9 @@ Thường được sử dụng cho giao tiếp một chiều, tức một bên g
 Nếu giao tiếp 2 chiều tức là bên nhận có thể gửi trả lại được bên gửi thì không dùng pub-sub, lúc này để giảm bớt được sự phức tạp của hệ thống thì nên dùng design pattern Mediator
 để truyền dữ liệu qua lại giữa các đối tượng
 
-Kết quả quả Example.java 
+Kết quả quả Example.java
+<strong>Từ kết quả có thể thấy trong cùng một thread thì kết quả in ra nhiều lần gần nhau nhưng lại không gọi onSubscribe, đó chính là non-bloking</strong>
+Do vậy mà một thread có thể xử lý được rất nhiều request cùng lúc mà không phải chờ request trước hoàn thành mới đến request sau.
 
 Subscriber A >> [main] Subscribed \
 Subscriber A >> [main] Requesting 3 new items... \
